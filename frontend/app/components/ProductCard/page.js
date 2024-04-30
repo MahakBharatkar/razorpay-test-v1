@@ -14,7 +14,7 @@ const ProductCard = ({amount, img, checkoutHandler}) => {
                         <p className="text-sm text-gray-600 cursor-auto ml-2">₹299</p>
                     </del>
 
-                    <button type="button" onClick={()=>checkoutHandler(amount)} class="ml-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Buy Now</button>
+                    <button type="button" onClick={()=>checkoutHandler(amount)} className="ml-auto text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Buy Now</button>
                 
                 </div>
             </div>
